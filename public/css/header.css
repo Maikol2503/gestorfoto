@@ -1,0 +1,93 @@
+.buscadores{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+#buscador1{
+    display: flex;
+    background-image: url("lupa.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    padding: 0;
+    outline: 1px;
+    padding-left:10px ;
+    padding-right: 30px;
+    border: none;
+} 
+#buscador{
+ border: none;
+ padding: 0;
+ margin: 0;
+}
+#buscador button{
+    border-radius: 5px; 
+} #buscador:focus{
+    border:none; 
+}
+.row{
+    margin-right: 0;
+}
+.buscador {
+    flex: 0 0 auto;
+    width: 25%;
+    display: flex;
+    width: auto;
+    align-items: center;
+  
+}
+.container1{
+    padding: 0 20px;
+    -webkit-animation: fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in .3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.divBuscador{
+    display: flex;
+    align-content: center;
+    border:1px solid rgb(197, 197, 197);
+    margin-right:10px;
+    border-radius:7px;  
+    align-items: center;
+    overflow: hidden;
+    padding: 4px;
+    height: 90%;
+    padding-left: 10px;
+}
+
+.divbuscadorfecha{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(234, 237, 243);
+}
+.divBuscador select{
+    border: none;
+    outline: 1px;
+    width: 100px;
+    font-size: 14px;
+    height: 30px;
+   
+} .divBuscador select:focus{
+    border-right: 1px solid rgb(182, 182, 182);
+}
+
+.fechas{
+  margin: 0 7px;
+  border: none;
+  background: rgb(236, 236, 236);
+  border-radius: 7px;
+  height: 30px;
+  padding: 0 5px;
+  width: 110px;
+  font-size: 14px
+}
